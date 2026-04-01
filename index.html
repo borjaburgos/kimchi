@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship Social Club's Kimchi Lab</title>
+  <meta name="description" content="Two kimchi recipes. Zero pretension. Maximum fermentation.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<section class="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="container">
+    <h1>Friendship Social Club's Kimchi Lab</h1>
+    <p class="subtitle">Two recipes. Zero pretension. Maximum fermentation.</p>
+  </div>
+</section>
+
+<!-- wavy divider: yellow → cream -->
+<div class="wavy-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+    <path d="M0,0 C360,60 1080,0 1440,60 L1440,0 L0,0 Z" fill="#FFD60A"/>
+  </svg>
+</div>
+
+<!-- ═══════════════ RECIPE NAV ═══════════════ -->
+<nav class="recipe-nav" aria-label="Recipe navigation">
+  <div class="container">
+    <div class="nav-cards">
+      <a href="#classic" class="nav-card nav-card--pink">
+        <span class="emoji" aria-hidden="true">🥬</span> Classic Napa Kimchi
+      </a>
+      <a href="#lemon" class="nav-card nav-card--blue">
+        <span class="emoji" aria-hidden="true">🍋</span> Lemon Kimchi
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════ RECIPE 1: CLASSIC ═══════════════ -->
+<section id="classic" class="recipe-section recipe-section--pink">
+  <div class="blob blob-1" style="width:250px;height:250px;background:var(--pink);top:-60px;right:5%;"></div>
+  <div class="container">
+
+    <div class="recipe-header">
+      <h2>Classic Napa Cabbage Kimchi</h2>
+      <ul class="recipe-meta">
+        <li>Prep 30 min</li>
+        <li>Ferment 4 days</li>
+        <li>Total ~72 hrs</li>
+        <li>Yield 8 cups</li>
+        <li>Sylvia Fountaine, Feasting at Home</li>
+      </ul>
+    </div>
+
+    <!-- Scaler -->
+    <div class="scaler">
+      <span class="scaler-label">Servings</span>
+      <button class="btn-minus" aria-label="Decrease servings">−</button>
+      <span class="servings-count" data-base="16">16</span>
+      <button class="btn-plus" aria-label="Increase servings">+</button>
+    </div>
+
+    <!-- Ingredients -->
+    <h3 class="ingredients-heading">
+      <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+      Ingredients
+    </h3>
+    <ul class="ingredients-grid">
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">lb</span>
+        <span class="ingredient-name">napa cabbage (1 large head)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="0.25">¼</span>
+        <span class="ingredient-unit">cup</span>
+        <span class="ingredient-name">sea salt (60 g)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">cups</span>
+        <span class="ingredient-name">daikon radish, matchstick-cut (or carrots)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">bunch</span>
+        <span class="ingredient-name">scallions, trimmed, cut 1"</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">fresh ginger, sliced 2-3 disks</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="6">6</span>
+        <span class="ingredient-unit">cloves</span>
+        <span class="ingredient-name">garlic, whole</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">—</span>
+        <span class="ingredient-name">shallot, quartered (optional)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="4">4</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">Korean red pepper flakes (gochugaru)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">fish sauce (or miso/soy for vegan)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tsp</span>
+        <span class="ingredient-name">sugar (or honey, brown rice syrup)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">glutinous rice powder (optional)</span>
+      </li>
+    </ul>
+
+    <!-- Steps -->
+    <h3 class="ingredients-heading">
+      <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+      Steps
+    </h3>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-number">1</span>
+        <p class="step-title">Salt the cabbage <span class="time-badge">⏱ 6-8 hrs</span></p>
+        <p class="step-body">Reserve 1-2 outer leaves, refrigerate. Core and cut remaining cabbage into 1-inch pieces. Toss with salt in a large bowl. Add cool water to cover. Submerge with a plate. Stand at room temp 6-8 hours, stir midway if possible.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">2</span>
+        <p class="step-title">Drain &amp; rinse</p>
+        <p class="step-body">Drain cabbage, save the brine. Rinse lightly, drain, squeeze/blot excess water. Return to bowl with daikon and scallions.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">3</span>
+        <p class="step-title">Make the paste</p>
+        <p class="step-body">Food processor: ginger, garlic, shallot, gochugaru, fish sauce, sugar, optional rice powder. Pulse until thick paste.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">4</span>
+        <p class="step-title">Massage</p>
+        <p class="step-body">Wearing gloves or using tongs, mix paste into vegetables thoroughly until well coated.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">5</span>
+        <p class="step-title">Pack jars</p>
+        <p class="step-body">Pack into a large 2-quart jar or crock, leaving 1-2 inches headroom. Add reserved brine to just cover. Place whole cabbage leaf on top to keep kimchi submerged. Use fermentation weight or water-filled zip-lock.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">6</span>
+        <p class="step-title">Ferment <span class="time-badge">⏱ 3-4 days</span></p>
+        <p class="step-body">Cover loosely. Place jar in baking dish for overflow. Store dark and cool (55-65 °F ideal) for 3 days.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">7</span>
+        <p class="step-title">Check fermentation <span class="time-badge">⏱ Day 3 evening</span></p>
+        <p class="step-body">Tap jar — look for bubbles. Bubbles = ready to fridge. No bubbles = wait 1-2 more days. For tangier: ferment 3 more days.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">8</span>
+        <p class="step-title">Refrigerate</p>
+        <p class="step-body">Move to fridge. Full flavor at ~2 weeks. Keeps for months if submerged.</p>
+      </li>
+    </ol>
+
+    <!-- Notes -->
+    <div class="notes-section">
+      <h3 class="notes-heading">
+        <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true" style="width:24px;height:24px;"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+        Notes
+      </h3>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Spice Level</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          2 tbsp gochugaru = mild &bull; 4 tbsp = medium &bull; 6 tbsp = spicy. Adjust to taste.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Rice Powder Paste</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          Cook 1 tbsp glutinous rice powder with &frac12; cup water over medium heat until thickened. Cool completely, then add to the paste. This helps the kimchi develop a better texture and feeds the fermentation.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Extra Brine</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          If you need more brine to keep kimchi submerged: 1 cup water + 1&frac14; tsp fine sea salt. Mix until dissolved.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Mold Troubleshooting</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          If you see mold on the surface, remove the top leaf, wipe the rim clean, and replace with a fresh leaf. Always keep kimchi fully submerged under brine.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">No Bubbles?</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          Check the temperature — ideal range is 50-70 °F (60-65 °F is the sweet spot). Too cold slows fermentation. Give it another day or two.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Serving Suggestions</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          Use a slotted spoon to serve. Top with sesame oil, toasted sesame seeds, and fresh scallions.
+        </div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- bolt divider -->
+<div class="bolt-divider" aria-hidden="true">
+  <svg class="bolt" viewBox="0 0 64 64"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+</div>
+
+<!-- wavy divider: cream → blue tint -->
+<div class="wavy-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+    <path d="M0,60 C360,0 1080,60 1440,0 L1440,60 L0,60 Z" fill="#F0FAFF"/>
+  </svg>
+</div>
+
+<!-- ═══════════════ RECIPE 2: LEMON ═══════════════ -->
+<section id="lemon" class="recipe-section recipe-section--blue">
+  <div class="blob blob-2" style="width:280px;height:280px;background:var(--blue);bottom:-60px;left:5%;"></div>
+  <div class="container">
+
+    <div class="recipe-header">
+      <h2>Lemon Kimchi with Korean Red Chili Sauce &amp; Charred Scallions</h2>
+      <ul class="recipe-meta">
+        <li>Yield 30 servings</li>
+        <li>Chef Robert Dahni</li>
+      </ul>
+    </div>
+
+    <!-- Scaler -->
+    <div class="scaler">
+      <span class="scaler-label">Servings</span>
+      <button class="btn-minus" aria-label="Decrease servings">−</button>
+      <span class="servings-count" data-base="30">30</span>
+      <button class="btn-plus" aria-label="Increase servings">+</button>
+    </div>
+
+    <!-- Lemon Kimchi Ingredients -->
+    <h3 class="ingredients-heading">
+      <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+      Lemon Kimchi Ingredients
+    </h3>
+    <ul class="ingredients-grid">
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">lb</span>
+        <span class="ingredient-name">lemons, sliced ⅛" thin, no seeds</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">lb</span>
+        <span class="ingredient-name">napa cabbage, cut 1" squares</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="3">3</span>
+        <span class="ingredient-unit">oz</span>
+        <span class="ingredient-name">kosher or sea salt</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">Korean coarse red pepper powder</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">garlic, minced</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="0.5">½</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">ginger, minced</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="4">4</span>
+        <span class="ingredient-unit">—</span>
+        <span class="ingredient-name">scallions, minced &amp; charred</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">fish sauce</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">sugar</span>
+      </li>
+    </ul>
+
+    <!-- Red Chili Sauce Ingredients -->
+    <h3 class="ingredients-heading">
+      <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+      Korean Red Chili Sauce
+    </h3>
+    <ul class="ingredients-grid">
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="0.5">½</span>
+        <span class="ingredient-unit">cup</span>
+        <span class="ingredient-name">Korean red chili paste (gochujang)</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">soy sauce</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">sugar</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="2">2</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">soju or sake</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tbsp</span>
+        <span class="ingredient-name">sesame oil</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tsp</span>
+        <span class="ingredient-name">garlic, fresh chopped</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tsp</span>
+        <span class="ingredient-name">ginger, fresh chopped</span>
+      </li>
+      <li class="ingredient-card">
+        <span class="ingredient-amount" data-base-amount="1">1</span>
+        <span class="ingredient-unit">tsp</span>
+        <span class="ingredient-name">orange zest</span>
+      </li>
+    </ul>
+
+    <!-- Steps -->
+    <h3 class="ingredients-heading">
+      <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+      Steps
+    </h3>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-number">1</span>
+        <p class="step-title">Salt lemons &amp; cabbage <span class="time-badge">⏱ 4 hrs</span></p>
+        <p class="step-body">Toss lemons and cabbage with salt. Transfer to a noncorrosive container. Marinate at room temp for 4 hours.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">2</span>
+        <p class="step-title">Rinse &amp; drain</p>
+        <p class="step-body">Quick rinse with cool running water, drain well.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">3</span>
+        <p class="step-title">Mix kimchi</p>
+        <p class="step-body">Toss drained lemons and cabbage with pepper powder, garlic, ginger, charred scallions, fish sauce, and sugar. Place in a noncorrosive container, weigh down.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">4</span>
+        <p class="step-title">Ferment at room temp <span class="time-badge">⏱ 3-4 days</span></p>
+        <p class="step-body">Store at room temperature until desired cure, usually 3-4 days.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">5</span>
+        <p class="step-title">Refrigerate</p>
+        <p class="step-body">Remove weight, store covered. Ferment further in fridge 1-3 weeks.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">6</span>
+        <p class="step-title">Make the red chili sauce</p>
+        <p class="step-body">Blend all sauce ingredients until smooth. Transfer to a squeeze bottle.</p>
+      </li>
+      <li class="step">
+        <span class="step-number">7</span>
+        <p class="step-title">Assemble &amp; serve</p>
+        <p class="step-body">Per serving: 2 tbsp lemon kimchi + 8 pieces charred scallion (½" pieces, mostly white parts) + ¼ oz Korean red chili sauce.</p>
+      </li>
+    </ol>
+
+    <!-- Notes -->
+    <div class="notes-section">
+      <h3 class="notes-heading">
+        <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true" style="width:24px;height:24px;"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>
+        Notes
+      </h3>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Charring Scallions</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          Char scallions in a cast iron pan, under a broiler, or on a grill until blistered and softened. The white parts are preferred for charring — they get sweet and smoky.
+        </div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">Plating</button>
+        <div class="accordion-body" role="region"><div class="accordion-body-inner">
+          Arrange lemon kimchi on a plate, scatter charred scallion pieces, and drizzle red chili sauce from the squeeze bottle for a clean, restaurant-style presentation.
+        </div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="site-footer">
+  <p>
+    Website made with 🌶️ in Atlanta
+    <svg class="bolt" viewBox="0 0 64 64" aria-hidden="true" style="width:20px;height:20px;display:inline-block;vertical-align:middle;margin-left:6px;"><polygon points="36,2 18,30 30,30 24,62 46,28 34,28" fill="#FFD60A" stroke="#FFF8F0" stroke-width="2" stroke-linejoin="round"/></svg>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
