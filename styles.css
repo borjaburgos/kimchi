@@ -115,6 +115,13 @@ section { padding: 4rem 0; }
 
 .hero .container { position: relative; z-index: 1; }
 
+.hero-img {
+  width: clamp(180px, 30vw, 280px);
+  height: auto;
+  margin: 0 auto 1.5rem;
+  filter: drop-shadow(4px 4px 0 rgba(0,0,0,0.1));
+}
+
 .hero h1 {
   margin-bottom: 0.5rem;
 }

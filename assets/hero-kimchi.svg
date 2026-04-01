@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420">
+  <!-- Jar body -->
+  <rect x="100" y="120" width="200" height="240" rx="20" fill="#FFF8F0" stroke="#1A1A1A" stroke-width="6"/>
+  <!-- Jar neck -->
+  <rect x="120" y="90" width="160" height="40" rx="8" fill="#FFF8F0" stroke="#1A1A1A" stroke-width="6"/>
+  <!-- Lid -->
+  <rect x="110" y="60" width="180" height="40" rx="12" fill="#E83E8C" stroke="#1A1A1A" stroke-width="6"/>
+  <!-- Lid knob -->
+  <rect x="175" y="42" width="50" height="26" rx="10" fill="#FFD60A" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- Jar label background -->
+  <rect x="120" y="180" width="160" height="100" rx="10" fill="#FFD60A" stroke="#1A1A1A" stroke-width="4"/>
+  <!-- Label text -->
+  <text x="200" y="218" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="22" fill="#1A1A1A" letter-spacing="1">KIMCHI</text>
+  <!-- Lightning bolt on label -->
+  <polygon points="210,230 195,255 205,255 198,278 218,250 208,250" fill="#E83E8C" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Veggies poking out of jar top -->
+  <!-- Napa cabbage leaf left -->
+  <path d="M150,100 Q130,50 145,20 Q155,0 165,25 Q170,55 160,95" fill="#7CB342" stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M155,85 Q145,55 155,30" fill="none" stroke="#FFF8F0" stroke-width="2" opacity="0.6"/>
+  <!-- Napa cabbage leaf right -->
+  <path d="M250,100 Q270,45 255,15 Q245,-5 235,20 Q228,55 240,95" fill="#7CB342" stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M245,85 Q255,50 247,25" fill="none" stroke="#FFF8F0" stroke-width="2" opacity="0.6"/>
+  <!-- Scallion -->
+  <path d="M195,95 Q190,60 200,10" fill="none" stroke="#558B2F" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="200" cy="8" rx="10" ry="14" fill="#7CB342" stroke="#1A1A1A" stroke-width="2.5"/>
+  <!-- Chili pepper left -->
+  <path d="M135,110 Q100,85 80,100 Q70,110 90,115 Q110,118 135,115Z" fill="#E83E8C" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M80,100 Q75,90 70,85" fill="none" stroke="#558B2F" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Chili pepper right -->
+  <path d="M265,110 Q300,80 320,95 Q330,105 310,112 Q290,118 265,115Z" fill="#E83E8C" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M320,95 Q325,85 330,80" fill="none" stroke="#558B2F" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bubbles inside jar (fermentation!) -->
+  <circle cx="155" cy="310" r="8" fill="none" stroke="#00C2FF" stroke-width="2.5" opacity="0.7"/>
+  <circle cx="230" cy="290" r="6" fill="none" stroke="#00C2FF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="180" cy="335" r="5" fill="none" stroke="#00C2FF" stroke-width="2" opacity="0.5"/>
+  <circle cx="250" cy="330" r="7" fill="none" stroke="#00C2FF" stroke-width="2.5" opacity="0.6"/>
+  <!-- Stink/aroma lines -->
+  <path d="M160,50 Q155,35 160,20" fill="none" stroke="#E83E8C" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M200,30 Q195,15 200,0" fill="none" stroke="#FFD60A" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M240,50 Q245,35 240,20" fill="none" stroke="#00C2FF" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <!-- Stars/sparkles -->
+  <polygon points="60,160 65,170 75,170 67,177 70,187 60,180 50,187 53,177 45,170 55,170" fill="#FFD60A" stroke="#1A1A1A" stroke-width="2"/>
+  <polygon points="340,200 343,207 350,207 345,212 347,219 340,214 333,219 335,212 330,207 337,207" fill="#00C2FF" stroke="#1A1A1A" stroke-width="1.5"/>
+  <polygon points="50,280 53,287 60,287 55,292 57,299 50,294 43,299 45,292 40,287 47,287" fill="#E83E8C" stroke="#1A1A1A" stroke-width="1.5"/>
+  <polygon points="350,310 353,317 360,317 355,322 357,329 350,324 343,329 345,322 340,317 347,317" fill="#FFD60A" stroke="#1A1A1A" stroke-width="1.5"/>
+</svg>
